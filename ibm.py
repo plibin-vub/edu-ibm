@@ -46,7 +46,8 @@ def log_infection(ind, t):
 #seed(1)
 
 population = []
-for i in range(100):
+N=100
+for i in range(N):
     population.append(Individual(i))
 
 #contacts of individual i, 
